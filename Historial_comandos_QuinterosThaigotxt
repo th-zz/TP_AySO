@@ -1,0 +1,88 @@
+sudo apt install git -y
+ssh-keygen
+cat $home/.shh/*.pub
+cat $home/ .ssh/*.pub
+cd
+mkdir repogit
+cd repogit
+git clone git@github.com:th-zz/TP_Ayso.git
+ssh -T git@github.com
+cat $HOME/.ssh/*.pub
+ssh -T git@github.com
+cat $HOME/.ssh/id_ed25519.pub
+ssh -T git@github.com
+ssh-keygen -t rsa
+cat $HOME/.ssh/id_rsa.pub
+ssh -T git@githum.com
+ssh -T git@github.com
+ssh-keygen -t ed25519
+cat /home/vagrant/.ssh/id_ed25519_new.pub
+ssh -i /home/vagrant/.ssh/id_ed25519_new -T git@github.com
+cp /home/vagrant/.ssh/id_ed25519_new /home/vagrant/.ssh/id_ed25519
+cp /home/vagrant/.ssh/id_ed25519_new.pub /home/vagrant/.ssh/id_ed25519.pub
+ssh -T git@github.com
+git clone git@github.com:th-zz/TP_AySO.git
+cd TP_AySO
+pwd
+ls -l
+cat /etc/passwd
+man grep
+grep UBUNTU /etc/passwd
+grep ubuntu /etc/passwd
+grep -i Ubuntu /etc/passwd
+sudo poweroff
+grep UBUNTU /etc/passwd
+grep ubuntu /etc/passwd
+grep -i Ubuntu /etc/passwd
+grep -i ubuntu /etc/passwd | awk -F: '{print $2}' > datos_usuario.txt
+echo "Usuario=$(whoami)" >> datos_usuario.txt
+git config --global user.email "thiagoquinteros74@gmail.com"
+git config --glabal user.name "th--zz"
+git config --global user.name "th-zz"
+git add .
+git add.
+cd repogit/TP_Ayso
+cd /repogit/TP_AySO
+cd -/repogit/TP_AySO
+ls ~/repogit
+cd ~/repogit/TP_AySO
+git add .
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+grep UBUNTU /etc/passwd
+grep ubuntu /ect/passwd
+grep -i Ubuntu /etc/passwd
+grep -i ubuntu /etc/passwd | awk F: '{print $2}' > datos_usuario.txt
+grep -i ubuntu /etc/passwd | awk -F: '{print $2}' > datos_usuario.txt
+echo "Usuario=$(whoami)" >> datos_usuario.txt
+git add .
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git push
+grep "model name" /proc/cpuinfo | head -n1 >> info_pc.txt
+git add .
+git commit -m "feat: Añadiendo informacion de cpu"
+git push
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7 > lista_ordenada
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+git push
+cat >> README.md << Eof
+Alumno: Thiago quinteros
+Division: 115
+Turno: Mañana
+EOF
+Eof
+
+git add .
+git commit -m "docs: Agregando informacion del alumno al README"
+git push
+mkdir -p ~/TP1/arquitectura/{Clase1,CLase2,Clase3,CLase4,Clase5} ~/Tp1/so/{Clase1,Clase2,Clase3,Clase4,Clase5,Clase6}
+cat > script_dir.sh << 'Eof'
+#!/bin/bash
+mkdir -p ~/TP1/arquitectura/{Clase1,Clase2,Clase3,Clase4,Clase5} ~/TP1/so/{Clase1,Clase2,CLase3,CLase4,Clase5,Clase6}
+Eof
+
+chmod +x script_dir.sh
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+history -a
